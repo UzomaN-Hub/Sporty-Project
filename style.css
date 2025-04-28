@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #EAECEF;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E41827;
+    padding: 7px 13%;
+    
+}
+.toplogo{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.logo{
+  
+    align-content: center;
+}
+.logo img{
+    width: 12rem;
+    height: 5;
+}
+
+.country{
+    display: flex;
+    width: auto;
+    padding: 15px 7px;
+    gap: 7px;
+}
+.country img{
+    width: 10%;
+    height: auto;
+   
+}
+.country p{
+    color: #fff;
+    font-style: italic;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+}
+.formlogin{
+    display: flex;
+    
+}
+.formlogin input{
+    padding: 12px 2%;
+    margin-right: 5px;
+    width: 14rem;
+    background: #B60606;
+    outline: none;
+    border: none;
+    color: #fff;
+} 
+.formlogin input::placeholder{
+    color: grey;
+    
+} 
+.formlogin label{
+    align-content: center;
+    color: #fff;
+    font-size: 13px; 
+    background: #B60606;
+    padding: 7px 2%;
+}   
+   
+.formlogin2{
+    display: flex;
+    
+}
+.formlogin2 input{
+    padding: 12px 2%;
+    width: 10rem;
+    background: #B60606;
+    outline: none;
+    border: none;
+    color: #fff;
+
+}
+.formlogin2 .loginlabel{
+    padding: 7px 2%;
+    width: auto;
+    margin-right: 20px;
+    background: #7B0911;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+.btn{
+    width: 10rem;
+    margin-top: 20px;
+    padding: 2px 4px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.links .selection{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E41827;
+    padding: 7px 13%;
+    color: white;
+    cursor: pointer;
+    
+    
+    
+}
+.links .selection :hover{
+    border: 2px solid #B60606;
+    background: #B60606;
+    padding: 2px 1%;
+    
+   
+}
+.links .selection li{
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.secondlink ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 7px 13%;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.secondlink ul li:hover{
+    border-bottom: 2px solid #E41827;
+}
+
+/*HERO*/
+
+.hero{
+    width: 100%;
+    max-height: 45vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(./asset/Sporty\ backk.jpg);
+    background-size: contain;
+    margin-top: 5px;
+    padding: 7px 11%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.popular{
+    margin-top: 10px;
+
+}
+.popular h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.popular ul li{
+    font-size: 20px;
+    margin-top: 8px;
+    font-family: "Noto Sans Modi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 8px;
+
+}
+.images img{
+    height: 43vh;
+}
+
+.smallform{
+    margin-top: 15px;
+}
+.smallform h3{
+    margin-bottom: 10px;
+}
+.smallform p{
+    font-size: 15px;
+    color: #2EE46A;
+}
+.instant{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.instant input{
+    padding: 10px 2%;
+    margin-right: 5px;
+    width: 14rem;
+    height: 6vh;
+    background: #fff;
+    outline: none;
+    border: none;
+    color: #000;
+} 
+.instant input::placeholder{
+    color: grey;
+    margin-left: 10px;
+    font-size: 15px;
+} 
+.instant label{
+    align-content: center;
+    color: #000;
+    font-size: 15px; 
+    background: #fff;
+    padding: 7px 2%;
+}   
+.reg{
+    width: 100%;
+    padding: 10px 5px;
+    background: #0D9737;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*--Main--*/
+
+.mainimg{
+    width: 100%;
+    padding: 7px 12%;
+    
+}
+.mainimg img{
+    width: 100%;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    padding: 7px 12%;
+    justify-content: space-between;
+}
+.mainbody{
+    border: 1px solid #B4B4B4;
+    background-color: #FFFFFF;
+    width: 69%;
+    min-height: 60vh;
+}
+.firsthead{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Highlight{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.Highlight i{
+    font-size: 30px;
+    align-content: center;
+    color: #0D9737;
+}
+.Highlight h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: lighter;
+}
+.printrefresh{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.print{
+    gap: 10px;
+    display: flex;
+}
+.print p{
+    font-size: 15px;
+}
+.refresh{
+    gap: 10px;
+    display: flex;
+}
+.refresh p{
+    font-size: 15px;
+}
+.mainlinks{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.mainlinks2 ul{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 170%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.filterbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+   
+}
+.countryclub{
+    display: flex;
+    position: relative;
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+}
+.countryclub2{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.armenia{
+    background-color: #F7F7F7;
+    border: 1px solid #B4B4B4;
+    height: 10vh;
+}
+.sweden{
+    background-color: #F7F7F7;
+    border: 1px solid #B4B4B4;
+}
+.england{
+    background-color: #F7F7F7;
+    border: 1px solid #B4B4B4;
+}
+.thailand{
+    background-color: #F7F7F7;
+    border: 1px solid #B4B4B4;
+}
+.t{
+    display: flex;
+    gap: 50px;
+}
+.t1{
+    display: flex;
+    
+}
+.t2{
+    display: flex;
+    gap: 20px;
+} 
+
+.t3{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+}
+aside{
+    
+    width: 30%;
+    min-height: 60vh;
+}
